@@ -1,0 +1,242 @@
+/* creates border around main elements */box
+.border {
+    border: 2px solid black;
+    margin: 2px;
+    padding: 20px;
+    /* box-shadow: 5px 10px 5px rgb(236, 70, 98); */
+}
+
+/* set background color and align text to the center */
+*{ box-sizing: border-box; }
+
+/* set background color of elements to white */
+
+body .border {
+    background-color: white;
+}
+
+.border {
+    border: 0.5px;
+    background-color: #558abb;
+
+}
+
+
+nav {
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    text-decoration: none;
+    background-color: #558abb;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+h1, h2 {
+    text-align:center;
+}
+
+nav.border {
+  padding-left: 0;
+}
+.left {
+    float: left;
+    width: 60%;
+}
+
+.right {
+    float: right;
+    width: 40%;
+}
+
+
+body {
+    
+  background: rgb(12,106,121);
+  background: linear-gradient(180deg, rgba(12,106,121,1) 11%, rgba(139,76,76,1) 39%, rgba(6,75,164,1) 64%, rgba(10,5,177,0.8099440459777661) 96%, rgba(0,212,255,1) 100%); 
+
+}
+
+
+#main-nav {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+
+/* set height of section, article, and aside elements */
+
+section, article {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* add 10px to height to account for margin */
+aside {
+    height: 200px;
+    width: 200px;
+}
+back
+footer {
+    clear: both;
+}
+
+.footer {
+    background-color: #2d4f83;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Verdana";
+  }
+  
+
+nav a {
+    text-shadow: 0 0 15 px white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+  /* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;   
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(65, 73, 182);
+    background-color: #974545;
+    text-decoration: none;
+    padding: 10px;
+    text-shadow: 0 0 10px #974545;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(43, 48, 112);
+    background-color: #9463632f;
+    text-shadow: 0 0 10px #f1f1f1;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  .column {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 3%;
+  }
+
+  h2 { text-align: center; }
+  p {text-align: justify; }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  footer {
+    text-align: center;
+  }
+  .button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#email {
+  width: 10%;
+  color: #45a049;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+  div {
+    margin: auto;
+  }
+
+
+/*   
+  font-family: 'Roboto', sans-serif; */
+
+/* this will always keep the footer at the bottom */
+/*
+footer {
+    position: absolute;
+    right: 0;
+     bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+*/
