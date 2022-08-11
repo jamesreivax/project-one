@@ -47,6 +47,11 @@ h1, h2 {
     text-align:center;
 }
 
+h1 {
+    color: #82c44b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 nav.border {
   padding-left: 0;
 }
@@ -80,18 +85,8 @@ body {
 
 /* set height of section, article, and aside elements */
 
-section, article {
-    height: 200px;
-    width: 200px;
-}
-
-
 /* add 10px to height to account for margin */
-aside {
-    height: 200px;
-    width: 200px;
-}
-back
+
 footer {
     clear: both;
 }
@@ -113,19 +108,19 @@ nav a {
 }
 
   /* unvisited link */
-a:link {
-    color: red;
+nav a:link {
+    color: rgb(136, 70, 70);
     text-decoration: none;   
   }
   
   /* visited link */
-  a:visited {
+ nav a:visited {
     color: green;
     text-decoration: none;
   }
   
   /* mouse over link */
-  a:hover {
+  nav a:hover {
     color: rgb(65, 73, 182);
     background-color: #974545;
     text-decoration: none;
@@ -134,7 +129,7 @@ a:link {
   }
   
   /* selected link */
-  a:active {
+  nav a:active {
     color: rgb(43, 48, 112);
     background-color: #9463632f;
     text-shadow: 0 0 10px #f1f1f1;
@@ -166,9 +161,8 @@ a:link {
 
   .row {
     text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: Trebuchet MS, sans-serif;
+    color: #175217;
   }
 
   footer {
@@ -202,8 +196,10 @@ input[type=text], select, textarea {
 
 #email {
   width: 10%;
-  color: #45a049;
+  color: #f0faf0;
+  font-family: 'Courier New', Courier, monospace;
 }
+
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -226,7 +222,40 @@ input[type=submit]:hover {
     margin: auto;
   }
 
+  .boxed {
+    border: 1px solid rgb(8, 8, 8) ;
+    background-color: #ddd;
+    font-family: Trebuchet MS, sans-serif;
+  } 
 
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  #email-color
+  {
+    color: white;
+  }
 /*   
   font-family: 'Roboto', sans-serif; */
 
