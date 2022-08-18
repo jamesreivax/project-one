@@ -36,7 +36,11 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0;
+    margin: 10px;
+  }
+
+  nav i {
+    margin-right: 12px;
   }
   
   nav a:hover {
